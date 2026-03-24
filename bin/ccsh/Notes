@@ -1,0 +1,39 @@
+
+
+Deprecated: cause: Using Path instead of File
+
+	public List<String> cdcommand(CommandData cmdData) {
+		List<String> output = new ArrayList<>();
+		
+//		if (cmdData.getCommandArgument().equals("..")) {
+//			File path = new File(cmdData.getDirectory().getAbsolutePath());
+//			if(path.getParent() != null) {
+//				File directory=new File(path.getParent());
+//				System.out.println(directory.getAbsolutePath());
+//				output.add(directory.getAbsolutePath());
+//			}
+//		}
+//		else if (cmdData.getCommandArgument() != null) {
+////			String [] argumentPath;
+////			argumentPath=commandArgument.split("\\");
+//			File directory;
+//			
+//			
+//			if(!cmdData.getCommandArgument().contains("\\")) {
+//			directory=new File(cmdData.getDirectory(),cmdData.getCommandArgument());
+//			} else {
+//			directory=new File(cmdData.getCommandArgument());
+//			}
+//			if (directory.exists()) {
+//			System.out.println(directory.getAbsolutePath());
+//			output.add(directory.getAbsolutePath());
+//			}
+//			else {
+//				directory=new File(System.getProperty("user.dir"));
+//				System.out.println("path not found");
+//				output.add(directory.getAbsolutePath());
+//			}
+//		}
+		
+		return output;
+	}
